@@ -19,7 +19,7 @@ const router = createRouter({
     },
     {
       path: '/new',
-      name: 'about',
+      name: 'new',
       component: () => import('../views/NewView.vue')
     }
   ]

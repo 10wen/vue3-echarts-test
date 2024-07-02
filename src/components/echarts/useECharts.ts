@@ -1,5 +1,7 @@
 import * as echarts from 'echarts/core'
+// 引用用到的图表
 import { BarChart, LineChart, type LineSeriesOption, PieChart, type PieSeriesOption } from 'echarts/charts'
+// 引用提示框、数据集等组件
 import {
   LegendComponent,
   type LegendComponentOption,
@@ -17,7 +19,9 @@ import {
   TransformComponent
 } from 'echarts/components'
 
+// 引入标签自动布局、全局过渡动画等特性
 import { LabelLayout, UniversalTransition } from 'echarts/features'
+// 引入 Canvas 渲染器，必须
 import { CanvasRenderer } from 'echarts/renderers'
 
 import { shallowRef, onMounted, onBeforeUnmount } from 'vue'
